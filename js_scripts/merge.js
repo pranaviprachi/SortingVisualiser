@@ -33,13 +33,13 @@ async function mergeSort(l, r) {
         var m = parseInt((l + r) / 2);
         printRange(l, r);
         await sleep(delay / 3);
-        await mergeSort(l, m); // merge sort
+        await mergeSort(l, m); //call merge sort recursively
         printRange(l, m);
         await sleep(delay / 3);
-        await mergeSort(m + 1, r);  // merge sOrt
+        await mergeSort(m + 1, r);  //call merge sort recursively
         printRange(m + 1, r);
         await sleep(delay / 3);
-        await merge(l, m, r);   // finally merge them
+        await merge(l, m, r);   // merge
         
     }
 }
