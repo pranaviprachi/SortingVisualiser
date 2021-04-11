@@ -16,18 +16,6 @@ body{
     flex-flow: column wrap;
 }
 .nav{
-    
-    /* display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    min-height: 8vh;
-    background:  rgb(16, 17, 26);
-    padding: 1% 1%;
-    align-self: center; */
-
-    
     min-height: 8vh;
     padding: 1% 1%;
     background: rgb(29, 31, 48);
@@ -57,16 +45,6 @@ body{
 }
 
 .section{
-    /* padding: 5px 5px;
-
-    border: 1px solid  rgb(16,17, 26);
-    border-radius: 5px;
-    flex-grow: 1;
-
-    position: relative;
-
-    text-align: center; */
-
     flex-grow: 1;
     padding: 0px 4px;
     position: relative;
@@ -87,7 +65,6 @@ body{
     outline: none;
     border-radius: 12px;
     opacity: 0.7;
-
     transition: opacity 0.2s;
   }
    
@@ -140,38 +117,6 @@ body{
       }
 
 
-    /* watermark styling */
-    .watermark {
-        position: absolute;
-    bottom: 3%;
-    left: 1%;
-    color: white;
-    opacity: 0.5;
-    transition: all 0.3s ease;
-    cursor: pointer;
-  }
-  
-  .watermark:hover {
-    opacity: 1;
-  }
-  
-  a:visited {
-    text-decoration: none;
-    color: white;
-  }
-  
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  a:active {
-    color: white;
-    text-decoration: none;
-  }
-
-
-
 .burger{
     display: none;
     cursor: pointer;
@@ -186,23 +131,6 @@ body{
    margin: 5px;
    transition: all 0.3s ease;
 }
-/* .table{ */
-      /* display: flex; */
-      /* height: 100%;
-      background: rgb(16, 17, 27);
-      align-items: stretch;
-      justify-content: space-around;
-      flex-grow: 1;
-      width: 100%;
-      white-space: nowrap;
-      padding: 12px;
-      
-      background-size: 50px 50px;
-      background-image: linear-gradient( to right, rgb(5, 5, 10) 1px, transparent 1px), linear-gradient(to bottom, rgb(5, 5, 10) 1px, transparent 1px); */
-
-
-
-/* } */
 
 .expand {
       
@@ -219,7 +147,6 @@ body{
       height: auto;
       white-space: nowrap;
       padding: 12px;
-      
       background-size: 50px 50px;
       background-image: linear-gradient( to right, rgb(5, 5, 10) 1px, transparent 1px), linear-gradient(to bottom, rgb(5, 5, 10) 1px, transparent 1px);
       
@@ -267,9 +194,6 @@ body{
     
 
    body{
-       /* height: 100vh; */
-       /* height: auto; */
-        
         overflow-x: hidden;
         overflow-y: hidden;
     } 
@@ -316,7 +240,6 @@ body{
     opacity: 1;
 
 }
-
 
 @keyframes navLinkFade{
     from{
